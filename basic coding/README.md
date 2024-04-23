@@ -24,6 +24,9 @@ Fizz Buzz Array
 
 Contoh :
 [8 ,3 ,9 ,2 ,5] -> return [8 ,"fizz" ,"fizz" ,2 ,"buzz"]
+
 [3 ,4 ,6 ,7 ,9] -> return ["fizz" ,4 ,"fizz" ,7 ,"fizz"]
+
 [4 ,5 ,9 ,15 ,19] -> return [4 ,"buzz" ,"fizz" ,"fizz buzz" , 19]
+
 [2 ,4 ,7 ,8 ,1] -> return [2 ,4 ,7 ,8 ,1]
