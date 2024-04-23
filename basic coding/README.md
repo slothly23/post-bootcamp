@@ -5,7 +5,7 @@
 - Kembalikan dalam bentuk number
 - Kembalikan undefined jika tidak dikembalikan
 
-# Contoh : 
+### Contoh : 
 cari 3 : 
 [8 ,3 ,9 ,2 ,5] -> return 3
 
@@ -16,13 +16,15 @@ cari 9 :
 [2 ,6 ,7 ,5 ,1] -> return undefined
 
 
+
+
 ## Fizz Buzz Array
 
 - Mencari mengubah angka fizz buzz
 - Buat fungsi yang menerima parameter data array
 - Kembalikan dalam bentuk boolean
 
-# Contoh :
+### Contoh :
 [8 ,3 ,9 ,2 ,5] -> return [8 ,"fizz" ,"fizz" ,2 ,"buzz"]
 
 [3 ,4 ,6 ,7 ,9] -> return ["fizz" ,4 ,"fizz" ,7 ,"fizz"]
