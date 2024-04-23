@@ -21,11 +21,9 @@ function fizzBuzzArray (arr) {
         }
         else if ( arr[i] % 3 === 0 && arr[i] % 5 === 0 ) {
             arr[i] = 'fizz' + ' ' + 'buzz'
-        } else {
-            arr[i]
-        }
+        } 
     }
-    
+
     return arr
 }
 
