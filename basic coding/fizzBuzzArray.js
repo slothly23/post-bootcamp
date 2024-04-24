@@ -29,3 +29,25 @@ console.log(fizzBuzzArray(arr1)); // [ 8, 'fizz', 'fizz', 2, 'buzz' ]
 console.log(fizzBuzzArray(arr2)); // [ 'fizz', 4, 'fizz', 7, 'fizz' ]
 console.log(fizzBuzzArray(arr3)); // [ 4, 'buzz', 'fizz', 'fizz buzz', 19 ]
 console.log(fizzBuzzArray(arr4)); // [ 2, 4, 7, 8, 1 ]
+
+// use built-in function
+function fizzBuzzArr (arr) {
+    arr.map(function(element) {
+        if ( element % 3 === 0 && element % 5 === 0 ) {
+             element = 'fizz' + ' ' + 'buzz'
+        } 
+         if ( element % 3 === 0 ) {
+            return element = 'fizz'
+        }
+         if ( element % 5 === 0 ) {
+            return element = 'buzz'
+        } 
+    })
+    return arr
+}
+
+console.log('=====================================================');
+console.log(fizzBuzzArr(arr1)); // [ 8, 'fizz', 'fizz', 2, 'buzz' ]
+console.log(fizzBuzzArr(arr2)); // [ 'fizz', 4, 'fizz', 7, 'fizz' ]
+console.log(fizzBuzzArr(arr3)); // [ 4, 'buzz', 'fizz', 'fizz buzz', 19 ]
+console.log(fizzBuzzArr(arr4)); // [ 2, 4, 7, 8, 1 ]
